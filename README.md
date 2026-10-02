@@ -20,3 +20,6 @@ To run these scripts, grant execution permissions and execute them in a Bash ter
 chmod 700 filename.sh
 ./filename.sh
 ```
+
+## 📓 Learning Log
+* Progress and curriculum tracking can be found inside the `journal/` directory.
