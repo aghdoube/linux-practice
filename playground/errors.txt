@@ -1,0 +1,4 @@
+error disk full
+ERROR network down
+ error timeout
+checked by hayat
