@@ -66,7 +66,9 @@ I tried `traceroute google.com` too to see how the traffic gets there, but after
 
 
 
-Day 3 [04.10.26]
+# Day 3 [04.10.26]
+
+
 Today I went back over everything from the first two days to make my Linux foundation solid before moving on. I started with a Linux review and then did a networking review. I could answer most of the permission, process and file questions at the first try, like chmod with numbers, ps aux, fg and bg, wc -l and combining grep with a pipe. For networking I could explain CIDR in my own words, including why a /16 is a bigger network than a /24, and I knew what the 301 and 200 status codes from curl mean.
 
 Things i struggled with: kill with a job number, mkdir -p, the * wildcard, ls -a for hidden files, Ctrl+C vs. Ctrl+Z, router vs. port, and listening vs. established in ss. Those are the ones I need to learn.
