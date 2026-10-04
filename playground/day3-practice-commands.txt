@@ -33,7 +33,7 @@
 32 echo 'checked by hayat' >> errors.txt
 33 ls -a *.log
 
-=================== PART 2: PERMISSIONS & USERS ===================
+=================== PART 2: PERMISSIONS, USERS, PROCESSES & PACKAGES ===================
 34 ls -la
 35 touch script.sh
 36 ls -lh script.sh
@@ -48,3 +48,16 @@
 45 ls /home
 46 sudo usermod -aG sudo nana
 47 groups nana
+48 git add day3-practice-commands.txt script.sh
+49 git commit -m "docs: add day 3 command history for permissions and users"
+50 git push
+51 ps aux
+52 top
+53 sleep 300 &
+54 fg %1
+55 bg
+56 sudo apt update
+57 kill -9 %1
+58 jobs
+59 sudo apt install sl
+60 sudo apt remove sl
