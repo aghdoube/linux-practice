@@ -1,0 +1,50 @@
+=================== PART 1: FILE BASICS & GREP ===================
+1  pwd
+2  mkdir playground
+3  cd playground/
+4  pwd
+5  touch notes.txt
+6  mkdir -p backup/archive
+7  cp notes.txt notes-old.txt
+8  ls -la
+9  mv notes.txt backup/archive/todo.txt
+10 cp -r backup backup2
+11 rm -r backup2
+12 mv notes-old.txt backup/archive/
+13 touch server.log
+14 echo 'start ok' > server.log
+15 echo 'error disk full' >> server.log
+16 echo 'info user login' >> server.log
+17 echo 'ERROR network down' >> server.log
+18 echo 'info backup done' >> server.log
+19 echo 'error timeout' >> server.log
+20 cat server.log
+21 head -n 3 server.log
+22 tail -n 2 server.log
+23 grep -i "error" server.log
+24 grep -ic "error" server.log
+25 find . -name "server.log"
+26 grep -i "error" server.log | grep -n "error"
+27 grep -i "error" server.log | wc -l
+28 grep -i "error" server.log > errors.txt
+29 cat errors.txt
+30 touch a.log b.log c.txt
+31 find . -name "*.log"
+32 echo 'checked by hayat' >> errors.txt
+33 ls -a *.log
+
+=================== PART 2: PERMISSIONS & USERS ===================
+34 ls -la
+35 touch script.sh
+36 ls -lh script.sh
+37 chmod +x script.sh
+38 ./script.sh
+39 chmod 764 script.sh
+40 ls -ls script.sh
+41 sudo chown root script.sh
+42 whoami
+43 id
+44 sudo adduser nana
+45 ls /home
+46 sudo usermod -aG sudo nana
+47 groups nana
