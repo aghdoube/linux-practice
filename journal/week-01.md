@@ -76,3 +76,46 @@ Things i struggled with: kill with a job number, mkdir -p, the * wildcard, ls -a
 After that I wrote a  Linux command cheat sheet to fill the gaps in my foundation. It covers navigation, files, searching, pipes and redirects, permissions, users and sudo, processes, apt and system info. I also added the topics a job-ready foundation needs on top of that: the folder layout (/etc, /var/log, /home, /tmp), systemctl, SSH, cron and simple bash scripts.
 
 Next I'm going to type every command from the cheat sheet in the Codespace and build some muscle memory for the future.
+
+
+
+
+
+
+# Day 4 [05.10.26]
+
+Before moving on, I took a blind diagnostic on the core concepts from the roadmap and got 12 out of 12. So proud!!!
+
+## Linux & CLI basics
+
+- **Navigation:** `cd` to move around directories
+- **System files:** config files live in `/etc`
+- **Permissions:** `chmod` changes read, write and execute permissions
+- **Processes:** `kill` stops a frozen program. If it's really stuck, `kill -9` forces it to shut down
+- **Scripting:** `if` statements let a script make decisions
+- **Packages:** `sudo apt` to install, update or remove software
+
+## Cloud networking
+
+- **Subnet sizing:** a `/24` gives 256 IPs, plenty for 100-200 servers
+- **DNS:** basically a phone book that turns domain names into numbers
+- **Routing:** a router looks at the destination IP and sends the packet the right way
+- **Ports and firewalls:** ports are like doors for traffic. Port 80 is the default for plain HTTP
+- **Load balancing:** spreads traffic across servers and skips the unhealthy ones
+- **VPN:** an encrypted tunnel so private data can cross the normal internet safely
+
+## Python
+
+Started the programming basics section today. I already know the JavaScript fundamentals, so I wanted to see how much carries over to Python. Did another diagnostic on coding logic, syntax and error handling.
+
+Python is way less fussy than JavaScript. No variable keywords, no semicolons, no curly braces. You just type the name and assign a value. Blocks start with a colon and a strict 4-space indent, and if the spacing is off, the script crashes.
+
+I hit a few syntax errors while practicing. Nothing big, but it took a while to get used to how strict Python is about spacing.
+
+Naming differences to remember: booleans are capitalized (`True`/`False`), arrays are called Lists, and objects are called Dictionaries.
+
+By the end of the day I'd finished the basics for variables, conditionals, functions and `try/except`. File I/O is next, to see how Python reads and writes files.
+
+Excited for tomorrow!!
+
+
