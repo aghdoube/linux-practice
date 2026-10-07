@@ -119,3 +119,15 @@ By the end of the day I'd finished the basics for variables, conditionals, funct
 Excited for tomorrow!!
 
 
+# Day 5 and 6 [06.10 - 07.10.26]
+
+
+
+Yesterday, on day 5, I started reading about File I/O. I wrote the syntax and the explanations in my notebook. I want to study this part slowly because it is an important part of cloud engineering. I understood some of the concepts, and others were a bit harder to grasp. I'm sure that with a little more time I will get there.
+
+So I wouldn't forget what I learned before, today, on day 6, I went over everything again: the Linux basics, networking and the Python fundamentals. It felt good to see how much I already know. I went through it step by step to see what I really know and where I slip up. My logic is fine. It's my fingers that still fight the syntax. I kept forgetting the colon at the end of my if and else lines, I misspelled else a few times, i wrote else if, and I missed some closing brackets. Beginner mistakes, but fixing them one by one helped the rules finally stick.
+
+What helped most was writing code in tiny steps. One line, test it in the terminal, and only add the next line when the first one works. With that I built a server monitoring function. It loops through a list of dictionaries, checks the CPU numbers, and uses try and except to handle bad data without crashing the script. Seeing it print the healthy, critical and invalid servers correctly in Git Bash felt really good.
+
+Overall today made me feel more sure about the next steps. 
+Tomorrow I'll go back to File I/O with fresh eyes and keep taking it one step at a time.
