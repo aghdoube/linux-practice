@@ -131,3 +131,4 @@ What helped most was writing code in tiny steps. One line, test it in the termin
 
 Overall today made me feel more sure about the next steps. 
 Tomorrow I'll go back to File I/O with fresh eyes and keep taking it one step at a time.
+
