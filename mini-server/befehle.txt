@@ -1,0 +1,72 @@
+    1  ssh bandit0@bandit.labs.overthewire.org -p 2220
+    2  ssh bandit1@bandit.labs.overthewire.org -p 2220
+    3  ssh bandit2@bandit.labs.overthewire.org -p 2220
+    4  ssh ssh bandit3@bandit.labs.overthewire.org -p 2220
+    5  ssh bandit3@bandit.labs.overthewire.org -p 2220
+    6  ssh bandit4@bandit.labs.overthewire.org -p 2220
+    7  ssh bandit5@bandit.labs.overthewire.org -p 2220
+    8  ssh bandit6@bandit.labs.overthewire.org -p 2220
+    9  ssh bandit7@bandit.labs.overthewire.org -p 2220
+   10  ssh bandit8@bandit.labs.overthewire.org -p 2220
+   11  cd mini-server/
+   12  tree
+   13  ls -l skripte/
+   14  id anna
+   15  which gning 
+   16  which gninx 
+   17  ps aux |grep nginx 
+   18  which gninx 
+   19  sudo service nginx start 
+   20  curl -o skripte/seite1.html http://localhost 
+   21  ls -l skripte/
+   22  which nginx 
+   23  tar czvf backup/backup-1.tar.gz skripte/
+   24  sudo tar czvf backup/backup-1.tar.gz skripte/
+   25  sudo ls .l backup/
+   26  ls -l backup/
+   27  sudo ls -l backup/
+   28  sudo tar -tzvf backup/backup-1.tar.gz 
+   29  echo 'tar -czf /workspace/linux-practice/mini-server/backup/auto-$(date +%H%M).tar.gz -C /workspace/linux-practice/mini-server skripte' >> skripte/backup.sh 
+   30  sudo ./skripte/backup.sh 
+   31  echo 'tar -czf /workspaces/linux-practice/mini-server/backup/auto-$(date +%H%M).tar.gz -C /workspaces/linux-practice/mini-server skripte' >> skripte/backup.sh
+   32  cat skripte/backup.sh 
+   33  sudo ./skripte/backup.sh 
+   34  nano skripte/backup.sh 
+   35  sudo ./skripte/backup.sh 
+   36  sudo cat skripte/backup.s
+   37  cat skripte/backup.sh
+   38  nano skripte/backup.s
+   39  nano skripte/backup.sh
+   40  cat skripte/backup.sh
+   41  sudo ./skripte/backup.sh 
+   42  ls -l backup/
+   43  sudo ls -l backup/
+   44  which cron 
+   45  sudo apt install -y cron 
+   46  sudo service cron start 
+   47  sudo crontab -e 
+   48  sudo crontab -l 
+   49  echo '* * * * * /workspaces/linux-practice/mini-server/skripte/backup.sh' | sudo crontab -
+   50  sudo crontab -l
+   51  sudo service cron start 
+   52  sudo ls .l backup/
+   53  sudo ls -l backup/
+   54  sudo crontab -r 
+   55  sudo crontab -l 
+   56  export BACKUP_ORDNER="/workspaces/linux-practice/mini-server/backup"
+   57  echo $BACKUP_ORDNER
+   58  env | grep $BACKUP_ORDNER
+   59  sudo ls -l $BACKUP-ORDNER
+   60  sudo ls -l $BACKUP_ORDNER
+   61  echo 'export BACKUP-ORDNER="/workspaces/linux-practice/mini-server/backup"' >> ~./bashrc
+   62  echo 'export BACKUP_ORDNER="/workspaces/linux-practice/mini-server/backup"' >> ~/.bashrc
+   63  source ~/.bashrc
+   64  tail -n 2 ~/.bashrc
+   65  ssh-keygen -t ed25519 -f ~./ssh/uebung_key -N "" 
+   66  ssh-keygen -t ed25519 -f ~/.ssh/uebung_key -N ""
+   67  ls -l ~/.ssh/uebung_key*
+   68  cat ~/.ssh/uebung_key.pub 
+   69  pwd 
+   70  echo "backup/" > .gitignore
+   71  cat .gitignore 
+   72  history | tail -n 100 > befehle.txt
