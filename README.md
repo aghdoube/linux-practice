@@ -11,7 +11,7 @@ Become a Cloud Engineer through daily, practical learning: Linux, networking, Gi
 | Linux | files, permissions, users, processes, services, logs | [mini-server](mini-server/) |
 | Automation | Bash scripts, cron, tar backups | [mini-server/skripte](mini-server/skripte/) |
 | Web | nginx, curl, wget, HTTP status codes | [mini-server](mini-server/) |
-| Git and GitHub | commits, pushes, learning journal | [journal](journal/) |
+
 
 ## 🛠️ Environment
 - OS: Ubuntu Linux (hosted via GitHub Codespaces)
@@ -33,7 +33,7 @@ chmod 700 filename.sh
 ```
 
 ## 📓 Learning Log
-Progress and curriculum tracking can be found in the [journal](journal/) directory.
+
 
 ## 🗺️ Next Steps
 Networking, Python, SQL, AWS (EC2, S3, VPC, IAM), Terraform, Docker, CI/CD with GitHub Actions, Kubernetes basics.
