@@ -1,41 +1,43 @@
-# My Linux & Cloud Learning Journey
+# Linux, Systems & Automation Lab Workspace
 
-This repository is my hands-on lab where I practice Linux system administration, automation, and Git workflows on my way to becoming a Cloud Engineer (target platform: AWS).
+This repository maps my daily engineering labs, operational Bash scripts, and configuration pipelines designed to build core systems competencies required for managing cloud architecture environments.
 
-## 🎯 Goal
-Become a Cloud Engineer through daily, practical learning: Linux, networking, Git, scripting, SQL, AWS, Terraform, Docker, and CI/CD.
+## 📁 Repository Architectural Matrix
 
-## 🧰 Skills
-| Topic | What I practiced | Proof |
-| --- | --- | --- |
-| Linux | files, permissions, users, processes, services, logs | [mini-server](mini-server/) |
-| Automation | Bash scripts, cron, tar backups | [mini-server/skripte](mini-server/skripte/) |
-| Web | nginx, curl, wget, HTTP status codes | [mini-server](mini-server/) |
+*   **`automation-scripts/`**: Executable shell pipelines handling environment tasks.
+    *   `server_deployer.sh`: Automated configuration script executing systemic `apt` updates and provisioning Nginx.
+    *   `backup.sh`: Condition-bounded data backup logic verifying path criteria before generating system targets.
+    *   `first_script.sh`: System telemetry checking hardware resources, node health metrics, and storage capacities.
+    *   `workspace_setup.sh`: Scripted setup routine deploying standardized directory architectures.
+    *   `myservice.sh`: Persistent runtime script emulating server background daemon behaviors.
+*   **`operational-logs/`**: Raw diagnostic execution output traces tracking deployment history parameters.
+*   **`database-tier/`**: Structured SQL playground configurations (`shop.db`, `sql.md`) tracing indices, updates, and key allocations.
+*   **`python-runtime/`**: Backend infrastructure scripts practicing syntax execution, structural lookups, and JSON data mapping.
+*   **`project-template/`**: Baseline configuration framework testing static parameters (`settings.conf`).
+*   **`mini-server/`**: Dedicated Nginx engine workspace practicing localized user groups (`anna`), crontab schedules, and server automation utilities inside the `scripts/` directory.
+*   **`playground/`**: Raw command trace archives detailing historical terminal labs.
 
+---
 
-## 🛠️ Environment
-- OS: Ubuntu Linux (hosted via GitHub Codespaces)
-- Shell: Bash
-- IDE: Visual Studio Code
+## 📓 Engineering Log & Troubleshooting Logs
 
-## 📁 Projects and Scripts
-- **[mini-server](mini-server/)**: A small web server setup. I installed nginx, tested it with curl and wget, read its logs, created a user and group with permissions, and automated a tar backup with cron.
-- `first_script.sh`: Checks server uptime, system load, and available storage space.
-- `workspace_setup.sh`: Creates a standardized project folder structure and configuration files.
-- `server_deployer.sh`: Updates system packages, installs the Nginx web server, and writes the full output to a custom log file.
+I maintain an active, evergreen field journal capturing the actual logic traps, networking errors, and storage constraints I fixed throughout these labs.
 
-## 🚀 How to Run
-Grant execute permission and run a script in a Bash terminal:
+🔗 **[Review my troubleshooting notes inside JOURNAL.md](./JOURNAL.md)**
+
+---
+
+## 🚀 Execution Standards
+
+To fire off any provisioning component within the script matrix, lock down the security permission bits to your isolated account user context:
 
 ```bash
-chmod 700 filename.sh
-./filename.sh
+# Enter the script location
+cd automation-scripts/
+
+# Enforce secure owner execution permissions
+chmod 700 server_deployer.sh
+
+# Initialize the automated execution tree
+./server_deployer.sh
 ```
-
-## 📓 Learning Log
-
-
-## 🗺️ Next Steps
-Networking, Python, SQL, AWS (EC2, S3, VPC, IAM), Terraform, Docker, CI/CD with GitHub Actions, Kubernetes basics.
-
-## 📫 Contact

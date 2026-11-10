@@ -17,9 +17,9 @@ mkdir -p "$BACKUP"
 cp "$1"/* "$BACKUP"
 
 if [ $? -ne 0 ]
-then echo "there is an error with the copying"
+then echo "Error encountered during the backup process"
 	exit 1
 else
-	echo "that was a success"
+	echo "Backup executed successfully"
 	exit 0
 fi

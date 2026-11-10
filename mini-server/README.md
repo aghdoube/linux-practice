@@ -1,22 +1,14 @@
-# Mini-Server: Linux-Übung
+# Mini-Server: Linux Infrastructure Lab
 
-## Ziel
-Ich habe einen kleinen Webserver aufgebaut und ein Backup automatisiert, um die Linux-Grundlagen zu üben.
+A hands-on engineering lab focused on provisioning a local web server environment, managing system users, and automating critical directory backup pipelines.
 
-## Was ich gemacht habe
-- Ordner und Dateien angelegt (mkdir, cp, mv, rm)
-- Backup-Skript geschrieben und mit chmod ausführbar gemacht
-- Benutzerin und Gruppe angelegt (useradd, usermod, chown)
-- Prozesse gestartet und beendet (ps, kill, jobs)
-- nginx installiert, gestartet und Logs gelesen (apt, service, tail)
-- Server mit curl und wget getestet
-- Backup mit tar erstellt und mit Cron automatisiert
-- Umgebungsvariable und SSH-Schlüssel erzeugt
+## 🛠️ Implementation & Admin Tasks
+*   **Web Server Engine:** Installed and configured Nginx to handle incoming local HTTP traffic, verifying status loops via `systemctl`.
+*   **Access Control & Security:** Created dedicated system users (`anna`) and groups, mastering file ownership transfers (`chown`) and exclusive permissions matrices (`chmod`).
+*   **Process & Node Management:** Monitored background daemons and kernel jobs using `ps aux`, `jobs`, and process control flags (`kill`).
+*   **Disaster Recovery Automation:** Engineered a shell script execution path using `tar -czf` to compress project assets, fully automated via system `cron` schedules.
+*   **Network Diagnostics:** Tested endpoint responses, port layouts, and status returns using low-level network utilities (`curl`, `wget`).
 
-## Probleme und Lösungen
-- Ich habe sehr oft Tippfehler gemacht aber das ist ok so habe ich gelernt Fehlermeldungen zu lesen. 
-- chmod hat nach chown mit ‘Operation not permitted’ nicht geklappt, weil der Ordner nicht mehr mir gehörte. Lösung: sudo chmod
-
-## Was ich gelernt habe
-- Ich habe gelernt befehle die ich einzeln gelernt habe zu kombinieren.
-
+## 🔍 Key Troubleshooting Takeaways
+*   **Permission Blocks:** Resolved an 'Operation not permitted' collision after altering file ownership, fixed by applying elevated privileges (`sudo chmod`).
+*   **Error Logging:** Read through standard server trace printouts to locate configuration syntax bugs, converting individual commands into sequential pipeline automation.
